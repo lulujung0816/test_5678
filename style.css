@@ -1,0 +1,16 @@
+.hero {
+  height: 100vh;
+  /* 1. 여기에 배경 이미지, 사이즈, 고정 속성을 작성하세요 */
+  /* 팁: background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('...'); */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.spacer {
+  height: 1000px; /* 스크롤을 만들기 위한 강제 높이 */
+  background-color: #f4f4f4;
+  padding: 50px;
+}
